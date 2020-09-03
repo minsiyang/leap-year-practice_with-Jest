@@ -12,4 +12,16 @@ describe('isLeapYear', () => {
   test('it returns true when passed in 1600', () => {
     expect(isLeapYear(1600)).toBeTruthy();
   })
+
+  test('it returns false when passed in 500', () => {
+    expect(isLeapYear(500)).toBeFalsy();
+  })
+
+  test('it returns true when passed in 404', () => {
+    expect(isLeapYear(404)).not.toBe(false);
+  })
+
+  test('it returns false when passed in 407', () => {
+    expect(isLeapYear(407)).toBe(false);
+  })
 })  
