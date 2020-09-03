@@ -1,0 +1,14 @@
+{
+  "name": "leap-years",
+  "version": "1.0.0",
+  "description": "A simple tool that will tell you whether a year is a leap year, according to the following rules:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
