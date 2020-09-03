@@ -1,5 +1,5 @@
 const isLeapYear = require('../src/LeapYear')
 
-test('adds 1 + 2 to equal 3', () => {
-  expect(isLeapYear(1, 2)).toEqual(3);
+test('it returns false when passed in 400', () => {
+  expect(isLeapYear(400)).toBeTruthy();
 })
