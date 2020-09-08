@@ -4,7 +4,8 @@
   "description": "A simple tool that will tell you whether a year is a leap year, according to the following rules:",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "author": "",
   "license": "ISC",
