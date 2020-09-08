@@ -33,5 +33,5 @@ A simple tool that will tell you whether a year is a leap year, according to the
 |  500     |   false  |
 |  404     |   true   |
 |  407     |   false  |
-
+| '500'    | 'Input must be a number!" |
 ![test](public/test.png)
